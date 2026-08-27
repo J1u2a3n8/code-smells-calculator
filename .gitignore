@@ -1,0 +1,49 @@
+# C/C++
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.exp
+*.ilk
+*.pdb
+*.idb
+*.pch
+*.ipch
+*.suo
+*.user
+*.ncb
+*.sdf
+*.opensdf
+*.vcxproj.user
+*.vcxproj.filters
+
+# Build directories
+build/
+out/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+*.cmake
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

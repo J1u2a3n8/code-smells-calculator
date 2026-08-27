@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Build
+      run: |
+        echo "Agrega comandos de build específicos para este proyecto"
+        # Ejemplos:
+        # make build
+        # npm run build
+        # cargo build --release
+        
+    - name: Test
+      run: |
+        echo "Agrega comandos de test específicos"
+        # npm test
+        # cargo test
+        # python -m pytest
